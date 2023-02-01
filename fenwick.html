@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <head>
+        <title>Fenwick Broadcasting</title>
+        <link rel="stylesheet" href="fenwick.css">
+        <script>
+            //darkmode function
+            function darkorlightmode() {
+            if (document.getElementById("darkmode").checked) {
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+                document.getElementById("navigation").style.backgroundColor = "darkgray";
+                document.getElementById("main").style.backgroundColor = "darkgray";
+                document.getElementById("modebox").style.backgroundColor = "darkgray";
+                }
+            else { (document.getElementById("lightmode").checked) 
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+                document.getElementById("navigation").style.backgroundColor = "lightgray";
+                document.getElementById("main").style.backgroundColor = "lightgray";
+                document.getElementById("modebox").style.backgroundColor = "lightgray";
+            }
+            }
+
+        </script>
+    </head>
+    <body>
+        <div id="modebox">
+        <!-- Light/Dark Mode Toggle-->
+        <input type="radio" id="lightmode" onclick="darkorlightmode()" name="lightordark" checked>
+        <label for="lightmode">Lightmode</label>
+        <input type="radio" id="darkmode" onclick="darkorlightmode()" name="lightordark">
+        <label for="darkmode">Darkmode</label>
+        </div>
+
+        <br><br>
+
+        <h1>Jeffrey Smith</h1>
+        <h3>IT 130</h3>
+
+        <!-- Navigation Bar -->
+        <div id="navigation">
+        <aside id="home">
+            <a href="home.html">
+            Home
+        </a>
+        </aside>
+        <aside id="aboutme">
+            <a href="aboutme.html">
+                About Me / Resume
+        </a>
+        </aside>
+        <aside id="twitter">
+            <a href="twitter.html">
+            Twitter Work
+        </a>
+        </aside>
+        <aside id="cshofwork">
+            <a href="cshofwork.html">
+            Chicagoland Sports Hall of Fame Work
+        </a>
+        </aside>
+        <aside id="fenwick">
+            <a href="fenwick.html">
+            Fenwick Broadcasting
+        </a>
+        </aside>
+        
+        </div>
+
+        <div id="main">
+            <h2>Fenwick Broadcasting</h2>
+            <p>For my senior year of highschool, I attended Fenwick highschool in Oak Park Illinois. I enrolled in their Broadcasting class and club which made content for school events. I was able to work on many different projects for Fenwick. A lot of my work was centered around football content and creating advertisements for big school events.  </p>
+            <aside id="left">
+                <video width="500" height="320" controls>
+                    <source src="touchdown.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div id="left">
+                <p>This little touchdown animation was made using Cinema 4D and Adobe After Effects. This animation was used each time during a livestream when the Fenwick Friars would score a touchdown. As one of the producers of the Fenwick football livestream, I thought it was important to add elements like this to really seperate our livestream from other school's livestreams.</p>
+                </div>
+            </aside>
+            <aside id="middle">
+                <video width="500" height="320" controls>
+                    <source src="football_ad.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div id="middle">
+                    <p>This football ad animation was made with Cinema 4D, Adobe After Effects, and Adobe Photoshop. This was a big matchup for the Friar so I was tasked with creating an advertisement for the game.The background used is the actual stadium where the Fenwick Friars played. I used spotlight to mimick the spotlights at the stadium. Overall it was a fun little project that consisted of different elements with using multiple programs.</p>
+                </div>
+            </aside>
+            <aside id="right">
+                <video width="500" height="320" controls>
+                    <source src="fenwick_ad.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div id="right">
+                    <p>This video was made using Adobe After Effects and Adobe Premiere Pro. This was an advertisement made for "Bauna" which is Fenwick's big talent show and fundraiser. Since this is such an important event for the school, everyone was tasked with creating multiple commericals for the program and I believe this is the best one I personally produced.</p>
+                </div>
+            </aside>
+        
+
+        </div>
+
+        
+        
+        
+
+
+        
+        
+        
+
+
+
+    </body>
+</html>

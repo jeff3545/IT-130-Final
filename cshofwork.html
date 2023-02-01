@@ -1,0 +1,98 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <head>
+        <title>CSHOF</title>
+        <link rel="stylesheet" href="cshofwork.css">
+        <script>
+            //darkmode function
+            function darkorlightmode() {
+            if (document.getElementById("darkmode").checked) {
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+                document.getElementById("navigation").style.backgroundColor = "darkgray";
+                document.getElementById("main").style.backgroundColor = "darkgray";
+                document.getElementById("modebox").style.backgroundColor = "darkgray";
+                }
+            else { (document.getElementById("lightmode").checked) 
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+                document.getElementById("navigation").style.backgroundColor = "lightgray";
+                document.getElementById("main").style.backgroundColor = "lightgray";
+                document.getElementById("modebox").style.backgroundColor = "lightgray";
+            }
+            }
+
+        </script>
+    </head>
+    <body>
+        <div id="modebox">
+        <!-- Light/Dark Mode Toggle-->
+        <input type="radio" id="lightmode" onclick="darkorlightmode()" name="lightordark" checked>
+        <label for="lightmode">Lightmode</label>
+        <input type="radio" id="darkmode" onclick="darkorlightmode()" name="lightordark">
+        <label for="darkmode">Darkmode</label>
+        </div>
+
+        <br><br>
+
+        <h1>Jeffrey Smith</h1>
+        <h3>IT 130</h3>
+
+        <!-- Navigation Bar -->
+        <div id="navigation">
+        <aside id="home">
+            <a href="home.html">
+            Home
+        </a>
+        </aside>
+        <aside id="aboutme">
+            <a href="aboutme.html">
+            About Me / Resume
+        </a>
+        </aside>
+        <aside id="twitter">
+            <a href="twitter.html">
+            Twitter Work
+        </a>
+        </aside>
+        <aside id="cshofwork">
+            <a href="cshofwork.html">
+            Chicagoland Sports Hall of Fame Work
+        </a>
+        </aside>
+        <aside id="fenwick">
+            <a href="fenwick.html">
+            Fenwick Broadcasting
+        </a>
+        </aside>
+        
+        </div>
+
+        <div id="main">
+            <!-- CSHOF Specific Code (located in div id main)-->
+            <h2>Chicago Sports Hall of Fame</h2>
+            <p>The Chicagoland Sports Hall of Fame is an institution that pays tributes to people in sports that made an impact on Chicago Sport Teams or was from Chicago and went on to have an incredible career. I was fortunate enough to work at Chicagoland Sports Hall of Fame as an intern during the summer of 2021. My job was to create graphics of the hall of fame inductees and to manage their Twitter account. </p>
+            <video width="640" height="320" controls>
+                <source src="cshof_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <br>
+
+            <!--Text under CSHOF animation-->
+            <p id="cshof_video_text">Here is a short video I created for the Chicagoland Sports Hall of Fame. This video was meant to serve as an outro or intro to CSHOF videos. This was made with replicating the CSHOF logo in Cinema 4D. I then took that 3D model and inserted in Adobe After Effects where I was able to add the spotlight that moves across the screen, revealing the logo. </p>
+
+            <br>
+
+            <!--Lavine and Granderson Images-->
+            <div id="granderson"></div>
+            <div id="lavine"></div> 
+
+            <div id="granderson_text">
+                This graphic was made in Adobe Photoshop to honor the induction of former baseball player Curtis Granderson into the Chicagoland Sports Hall of Fame. Notable highlights from Granderson's career is being named a <strong>3x All-Star, Silver Slugger recipient and a Marvin Miller Man of the Year winner. </strong> 
+            </div>
+            <div id="lavine_text">
+                This graphic was made in Adobe Photoshop to honor Chicago Bull's Basketball Player on winning a gold medal for Team USA at the 2020 Tokyo Olympics. Zach Lavine was the first Chicago Bulls player to particpate in the Olympics since Jimmy Butler received the honor. Lavine went on to average <strong>9.7 PPG, 2 RPG, and 3.3 APG. </strong>
+            </div>
+        </div>

@@ -1,0 +1,134 @@
+
+            @font-face {
+                font-family: lemon_milk;
+                src: url(lemon_milk_bold.otf);
+            }
+
+            body {background-color: white;
+                 color: black;
+                 }
+
+            div#modebox {border: 5px solid blue;
+                width: 200px;
+                background-color: lightgray;
+
+            }
+        
+            div#navigation {width: 90%;
+            border: 10px solid blue;
+            padding: 40px;
+            margin: 25px;
+            background-color: lightgray;
+            font-family: lemon_milk;
+            position: relative;
+            top: -30px;}
+
+            div#main {width: 91%;
+                     background-color: lightgray;
+                     border: 10px solid blue;
+                    padding: 30px;
+                    margin: 26px;
+                    height: 1400px;
+                    position: relative;
+                    top: -35px;}
+
+            aside#home {width: 20%;
+                        float: left;
+                        text-align: center;
+                        margin: -7px;}
+
+            aside#aboutme {width: 20%;
+                        float: left;
+                        text-align: center;
+                        margin: -7px;}
+
+            aside#twitter {width: 20%;
+                        float: left;
+                        text-align: center;
+                        margin: -7px;}
+
+            aside#cshofwork {width: 20%;
+                        float: left;
+                        text-align: center;
+                        margin: -16px;}
+
+            aside#fenwick {width: 20%;
+                        float: left;
+                        text-align: center;
+                        margin: -7px;}
+            
+            a {font-weight: bolder;
+               font-size: 18px;
+               color: blue;}
+
+            h1 {text-align: center;
+                font-family: lemon_milk;
+                position: relative;
+                top: -15px;
+                font-size: 48px;
+            }
+
+            h2 { font-family: lemon_milk;
+                font-size: 28px;}
+
+            a:hover {color: aqua;}
+
+            video {display: block;
+            margin: 0 auto;}
+
+            p#cshof_video_text {text-align: center;}
+
+            #left{    
+             float: left;  
+            }  
+
+            #right{    
+            right: 50px;
+            float: right;  
+            }
+
+            
+        div#lavine {position: absolute;
+                      background-color: rgba(255, 165, 0, 0.0);
+                      height: 466px;
+                      width: 260px;
+                      top: 750px;
+                      right: 445px;
+                      color: black;
+                      background-image: url(lavine_gold.png);
+                      }
+            
+        div#granderson {position: absolute;
+                      background-color: rgba(255, 165, 0, 0.0);
+                      height: 466px;
+                      width: 300px;
+                      top: 750px;
+                      left: 445px;
+                      color: black;
+                      background-image: url(granderson.png);
+                      }
+        
+        div#lavine_text {position: absolute;
+            top: 1250px;
+            right: 335px;
+            width: 460px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        div#granderson_text {position: absolute;
+            top: 1250px;
+            left: 355px;
+            width: 460px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        p {font-size: 22px;}
+
+        h3 {text-align: center;
+                font-family: lemon_milk;
+                position: relative;
+                top: -40px;
+                font-size: 20px; 
+                }

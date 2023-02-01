@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <head>
+        <title>About Me</title>
+        <link rel="stylesheet" href="about_me.css">
+        <script>
+            //darkmode function
+            function darkorlightmode() {
+            if (document.getElementById("darkmode").checked) {
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+                document.getElementById("navigation").style.backgroundColor = "darkgray";
+                document.getElementById("main").style.backgroundColor = "darkgray";
+                document.getElementById("modebox").style.backgroundColor = "darkgray";
+                }
+            else { (document.getElementById("lightmode").checked) 
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+                document.getElementById("navigation").style.backgroundColor = "lightgray";
+                document.getElementById("main").style.backgroundColor = "lightgray";
+                document.getElementById("modebox").style.backgroundColor = "lightgray";
+            }
+            }
+
+        </script>
+    </head>
+    <body>
+        <div id="modebox">
+        <!-- Light/Dark Mode Toggle-->
+        <input type="radio" id="lightmode" onclick="darkorlightmode()" name="lightordark" checked>
+        <label for="lightmode">Lightmode</label>
+        <input type="radio" id="darkmode" onclick="darkorlightmode()" name="lightordark">
+        <label for="darkmode">Darkmode</label>
+        </div>
+
+        <br><br>
+
+        <h1>Jeffrey Smith</h1>
+        <h3>IT 130</h3>
+
+        <!-- Navigation Bar -->
+        <div id="navigation">
+        <aside id="home">
+            <a href="home.html">
+            Home
+        </a>
+        </aside>
+        <aside id="aboutme">
+            <a href="aboutme.html">
+            About Me / Resume
+        </a>
+        </aside>
+        <aside id="twitter">
+            <a href="twitter.html">
+            Twitter Work
+        </a>
+        </aside>
+        <aside id="cshofwork">
+            <a href="cshofwork.html">
+            Chicagoland Sports Hall of Fame Work
+        </a>
+        </aside>
+        <aside id="fenwick">
+            <a href="fenwick.html">
+            Fenwick Broadcasting
+        </a>
+        </aside>
+        
+        </div>
+
+        <div id="main">
+            <h2>About me</h2>
+            <p>My name is Jeffrey Smith and I'm currently a sophomore at DePaul University. I have lived on the Northwest Side of Chicago all my life. I come from a Catholic family so I have attened Catholic private school my entire life now. My intrests are in technology, sports, and art. I love to combine all of these together and use technology to create art pieces usually based around sports and the teams I love.</p>
+            <br><br><br>
+            <h2>Resume</h2>
+            <p><strong> Jeffrey Smith</strong></p>
+            <p id="small">jsmit366@depaul.edu <br> 224-531-0776
+            </p>
+            <hr>
+            <p><strong>Education</strong></p>
+            <p id="small"><br> DePaul University (2021-2025)
+                <li>Bachelor of Science in Information Technology</li>
+            <br>Fenwick highschool (2020-2021)
+            <br>Guerin Prep highschool (2017-2020)
+            </p>
+            <hr>
+            <p><strong>Word Experience</strong></p>
+            <p id="small">
+               <strong> Chicagoland Sports Hall of Fame</strong>
+                <li>Summer of 2021</li>
+                <li>Created graphics featuring the hall of fame's inductees</li>
+                <li>Managed their twitter</li>
+                <li>Created short 3D animations</li>
+            </p>
+            <p id="small"><strong>Freelance Designer</strong>
+            <li>Summer 2021 to Present</li>
+            <li>Sold numerous graphics and animations on Fiverr </li>
+            <li>Have done custom requests through my Twitter</li>
+            </p>
+            <hr>
+            <p><strong>Computer Skills</strong></p>
+            <li>Knowledge of HTML</li>
+            <li>Knowledge of CSS</li>
+            <li>Working knowledge of JavaScript</li>
+            <li>Working knowledge of Python</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Premiere Pro</li>
+            <li>Adobe After Effects</li>
+            <li>Adobe Illustrator</li>
+            <li>Cinema 4D</li>
+            <li>Microsoft Excel</li>
+            <li>Microsoft Access</li>
+            <hr>
+
+
+
+            
+            <br><br><br>
+            <h2>example private work</h2>
+            <aside id="left">
+                <img src="Lonzo1.png" alt="Lonzo Ball cover">
+                <div id="left">
+                    <p>I made this Lonzo Ball Slam Cover mockup to post on my personal Twitter account and show off to followers. This was made using Adobe Photoshop.</p>
+                </div>
+            </aside>
+            <aside id="right">
+                <img src="invite1.png" alt="invite graphic">
+                <div id="right">
+                    <p>This graphic was sent out to invite people to my annual big game party this last year. It was a simple graphic made within Adobe Photoshop. </p>
+                </div>
+            </aside>
+
+            
+
+        </div>
+
+
+
+        
+        
+
+
+        
+        
+        
+
+
+
+    </body>
+</html>
